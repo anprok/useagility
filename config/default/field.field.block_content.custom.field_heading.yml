@@ -1,0 +1,21 @@
+uuid: 435d12d8-bd34-42b5-ab86-eb9d52292558
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom
+    - field.storage.block_content.field_heading
+_core:
+  default_config_hash: IHii-t5wBQlG_QqIV3vF5y0SJ8eYLr2YeulaRPllV0Y
+id: block_content.custom.field_heading
+field_name: field_heading
+entity_type: block_content
+bundle: custom
+label: Heading
+description: 'Unformatted text, max 100 characters'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

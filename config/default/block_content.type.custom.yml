@@ -1,0 +1,10 @@
+uuid: d4b4ac07-f13d-4378-b9ad-f2fc5df7038d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: e_WCYo0-JVHhtB37VfvsluKcqjFYpLX-RBn0wkpFK1g
+id: custom
+label: Custom
+revision: 0
+description: 'Custom block'

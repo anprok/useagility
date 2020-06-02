@@ -1,0 +1,10 @@
+global:
+  version: VERSION
+  css:
+    component:
+      assets/index.css: {}
+  js:
+    assets/index.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

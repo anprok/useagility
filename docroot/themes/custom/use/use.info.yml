@@ -1,0 +1,13 @@
+name: 'USE'
+type: theme
+base theme: classy
+description: 'Custom theme for website'
+package: Custom
+version: VERSION
+core: 8.x
+libraries:
+  - use/global
+regions:
+  header: Header
+  content: Content
+  footer: Footer

@@ -1,0 +1,16 @@
+uuid: ac3bc5da-04ef-4544-81ce-fabb7fe4adae
+langcode: en
+status: false
+dependencies: {  }
+id: prod
+label: Prod
+description: Production
+folder: ../config/splits/prod
+module: {  }
+theme: {  }
+blacklist:
+  - system.performance
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

@@ -1,0 +1,25 @@
+uuid: 2f16ca3f-3084-4196-b376-38c8176e8533
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: Vtr2MLOWU04pW4r2QeoLJwHD4Q2M_lX0Up0HWiMX4KE
+id: block_content.custom.body
+field_name: body
+entity_type: block_content
+bundle: custom
+label: Copy
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

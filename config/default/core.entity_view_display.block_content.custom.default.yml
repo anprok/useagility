@@ -1,0 +1,33 @@
+uuid: 6e26e0be-d98a-465d-8d00-20b4eeb3fa41
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.custom
+    - field.field.block_content.custom.body
+    - field.field.block_content.custom.field_heading
+  module:
+    - text
+_core:
+  default_config_hash: cNpKezVf2M27bJIL7bupSCXaVGshP3wwUKMzzJvlvyQ
+id: block_content.custom.default
+targetEntityType: block_content
+bundle: custom
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_heading:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }
